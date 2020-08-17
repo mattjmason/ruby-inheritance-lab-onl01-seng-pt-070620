@@ -7,5 +7,7 @@ class User
     @last_name = last_name
   end
   
-  User.new 
+def new_user (first_name, last_name)
+    User.new(first_name, last_name)    
+  end 
 end 
